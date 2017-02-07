@@ -1,0 +1,26 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#centered {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#bitmap {
+  width: 512px;
+  height: 512px;
+}
+
+#randomSeed {
+  text-align: center;
+}
